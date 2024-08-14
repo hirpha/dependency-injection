@@ -4,6 +4,7 @@ import { PowerController } from './power.controller';
 
 @Module({
   providers: [PowerService],
-  controllers: [PowerController]
+  controllers: [PowerController],
+  exports:[PowerService]
 })
 export class PowerModule {}
