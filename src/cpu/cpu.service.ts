@@ -9,7 +9,7 @@ export class CpuService {
 
     compute(a:number, b:number){
         console.log("consume 10 watts from power supply service")
-        this.powerService.supplyPower(10);
+        this.powerService.supplyPower(b+a);
         return a+b;
 
     }

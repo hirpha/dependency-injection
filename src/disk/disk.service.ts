@@ -6,5 +6,6 @@ export class DiskService {
     constructor(private powerService: PowerService){}
     getData(){
         console.log("getData")
+        return "data";
     }
 }
